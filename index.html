@@ -5,15 +5,97 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./style.css">
-    <!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
-    <title>Coding Assesment L2 boilerplate</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100..900&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" /> 
+<!-- REPLACE THIS WITH YOUR PROJECT NAME. EXAMPLE - Category tabs -->
+    <title>Product Details section with add cart</title>
+    <div class="left-container">
+
+    <!-- Product Image -->
+    <img src="./assets/Product.png" alt="" width="600px" height="700px"/>
+    <!-- Thumbnail Image -->
+    <img src="./assets/Thumbnail.png" alt="" />
+
+</div>
+
+    <!-- Right Side -->
+    <div class="right-container">
+        <div class="title">
+            <h3>Marmeto</h3>
+            <h1>Embrace Sideboard</h1>
+            <hr class="line"/>
+        </div>
+        <div class="price">
+            <div class="real-price">
+            <h1>$12999</h1>
+            <h3></h3> 
+        </div>
+            <h4>$19999</h6>
+                <hr class="line"/>
+        </div>
+        <!--  -->
+        
+        <div class="color-selector">
+            <h3>Choose a color</h3>
+            <div class="color-container">
+
+                <div class="square-box" style="background-color: #ECDECC;"></div>
+                <div class="square-box" style="background-color: #BBD278;"></div>
+                <div class="square-box" style="background-color: #BBC1F8;"></div>
+                <div class="square-box" style="background-color: #FFD3F8;"></div>
+            <!-- <input type="color" value="#ECDECC" class="color-box">
+            <input type="color" value="#BBD278" class="color-box">
+            <input type="color" value="#BBC1F8" class="color-box">
+            <input type="color" value="#FFD3F8" class="color-box"> -->
+        </div>
+        <hr class="line"/>
+        </div>
+        <!--  -->
+        <div class="size-selector">
+            <h3>Choose a size</h3>
+            <div>
+            <div class="size">
+            <input type="radio" name="size" value="small" checked>
+            <label for="small">Small</label>
+        </div>
+        <div class="size">
+            <input type="radio" name="size" value="medium">
+            <label for="medium">Medium</label>
+            </div>
+            <div class="size">
+            <input type="radio" name="size" value="large">
+            <label for="large">Large</label>
+            </div>
+            <div class="size">
+            <input type="radio" name="size" value="extra">
+            <label for="extra">Extra Large</label>
+            </div>
+            <div class="size">
+            <input type="radio" name="size" value="xxl">
+            <label for="xxl">XXL</label>
+            </div>
+        </div>
+        <hr class="line"/>
+        </div>
+        <!--  -->
+        <div class="quanitity-selector">
+           <button id="add"><span id="increment">+</span> <span id="quantity">1</span> <span id="decrement">-</span></button>
+            <button id="add-cart"><span class="material-symbols-outlined" >shopping_bag<span id="cart-quantity"></span></span> Add to Cart </button>
+        </div>
+        <!--  -->
+        <div class="description">
+            <p>The Embrace Sideboard is a stylish wear. With a top cloth designed to provide superior protection and look great, this storage solution is both functional and attractive. It fits seamlessly into any home decor, with clean lines and a timeless look. Crafted from premium materials for a combination of style, durability, and reliability.</p>
+        </div>
+    </div>
 
 </head>
 
 <body>
     <!-- Your code goes here -->
     <div class="container">
-        <a href="https://github.com/mmdmrishabh/Coding-assessment-l2-Boilerplate-code/blob/main/Readme.md" target="_blank">Read how to work with boilerplate</a>
+        
     </div>
     <!-- Happy coding 😊 -->
     <script src="./script.js"></script>
